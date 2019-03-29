@@ -1,0 +1,28 @@
+#Logo{
+    width:100%;
+    height: 30px;
+    float: left;
+	background: white;
+}
+
+#contenedor{
+    width:100%;
+}
+#titulo{
+    width:100%;
+    height: 80px;
+    float: left;
+	background: black;
+}
+#tituloPagina{
+    width: 30%;
+    height: 500px;
+    float: left;
+	background: white;
+}
+#contenido{
+   width: 70%;
+   height: 500px; 
+   float: left;
+   background: grey;
+}
