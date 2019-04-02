@@ -12,15 +12,19 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <div id="Logo">
-            <div id="titulo"></div>
-            <div id="tituloPagina">
-            <div id="contenido"></div>
+        <div id="titulo">
+            <div id="Logo"> Logo </div>
+            <div id="tituloPagina"> Titulo De La Página </div>
         </div>
-        <?php
+        <div id="MenuPrincipal"> Menu Principal 
+            <div id="contenido">
+            Contenido
+            <?php
             var_dump(session_id());
             $_SESSION["hm"]="Hola Mundo";
             ?>
-        ?>
+            ?>
+            </div>
+        </div>
     </body>
 </html>
